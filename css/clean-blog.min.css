@@ -17,6 +17,18 @@
 
  h2{color:#618b6f}
 
+/*Make bullets green */
+ ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "\2022";
+  color:#618b6f;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+ }
 
 .container {
     max-width: 1540px;
